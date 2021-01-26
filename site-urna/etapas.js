@@ -1,115 +1,50 @@
 let etapas = [
     {
-        titulo: "vereador",
+        titulo: "VEREADOR",
         numeros: 5,
         candidatos:[ 
-        {
-            numero: 38111, 
-            nome: "Christianne Varão",
-            partido: "ABC",
-            foto:[
-            {url:'38111.jpg', legenda: 'Vereador'}
-            ]
-        },
-        {
-            numero: 77222, 
-            nome: "Christianne Varão",
-            partido: "DEFG",
-            foto:[
-            {url:'77222.jpg', legenda: 'Vereador'}
-            ]
-        },  
+            {
+                numero: 38111, 
+                nome: "Fulano de Tal",
+                    partido: "ABC",
+                foto:[
+                {url:'38111.jpg', legenda: 'Vereador'}
+                ]
+            },
+            {
+                numero: 77222, 
+                nome: "Beltrano da Silva ",
+                partido: "DEFG",
+                foto:[
+                {url:'77222.jpg', legenda: 'Vereador'}
+                ]
+            },  
         ]
     },
-
-
-
-
-
-
-
-
-            55555": {
-                nome": "Homero do Zé Filho",
-                partido": "PSL",
-            "foto": "cv2.jpg"
+    {
+        titulo: "PREFEITO",
+        numeros: 2,
+        candidatos:[ 
+            {
+                numero: 99,
+                nome: "Ciclano",
+                partido: "ABC",
+                vice: 'Cic',
+                fotos:[
+                    {url:'99.jpg', legenda: 'Prefeito'},
+                    {url:'99_2.jpg', legenda: 'Vice-Prefeito', small: true}
+                ]
             },
-            43333": {
-                nome": "Dandor  ,
-                partido": "PV   ,
-                foto": "cv3.jpg"
+            {
+                numero: 84,
+                nome: "Zulano",
+                partido: "AQWERTY",
+                vice: 'Zul',
+                fotos:[
+                    {url:'99.jpg', legenda: 'Prefeito'},
+                    {url:'99_2.jpg', legenda: 'Vice-Prefeito', small: true}
+                ]
             },
-            "15123": {
-                "nome": "Filho",
-                "partido": "MDB",
-                "foto": "cv4.jpg"
-            },
-            "27222": {
-                "nome": "Joel Varão",
-                "partido": "PSDC",
-                "foto": "cv5.jpg"
-            },
-            "45000": {
-                "nome": "Professor Clebson Almeida",
-                "partido": "PSDB",
-                "foto": "cv6.jpg"
-            }
-        }
-    },
-    "1": {
-        "titulo": "prefeito",
-        "numeros": 2,
-        "candidatos": {
-            "12": {
-                "nome": "Chiquinho do Adbon",
-                "partido": "PDT",
-                "foto": "cp3.jpg",
-                "vice": {
-                    "nome": "Arão",
-                    "partido": "PRP",
-                    "foto": "v3.jpg"
-                }
-            },
-            "15": {
-                "nome": "Malrinete Gralhada",
-                "partido": "MDB",
-                "foto": "cp2.jpg",
-                "vice": {
-                    "nome": "Biga",
-                    "partido": "MDB",
-                    "foto": "v2.jpg"
-                }
-            },
-            "45": {
-                "nome": "Dr. Francisco",
-                "partido": "PSC",
-                "foto": "cp1.jpg",
-                "vice": {
-                    "nome": "João Rodrigues",
-                    "partido": "PV",
-                    "foto": "v1.jpg"
-                }
-            },
-            "54": {
-                "nome": "Zé Lopes",
-                "partido": "PPL",
-                "foto": "cp4.jpg",
-                "vice": {
-                    "nome": "Francisca Ferreira Ramos",
-                    "partido": "PPL",
-                    "foto": "v4.jpg"
-                }
-            },
-            "65": {
-                "nome": "Lindomar Pescador",
-                "partido": "PC do B",
-                "foto": "cp5.jpg",
-                "vice": {
-                    "nome": "Malú",
-                    "partido": "PC do B",
-                    "foto": "v5.jpg"
-                }
-            }
-        }
+        ]
     }
-}
+];
