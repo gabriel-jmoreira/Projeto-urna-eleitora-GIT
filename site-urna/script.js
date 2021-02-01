@@ -7,17 +7,16 @@ let numeros = document.querySelector('.d-1-3');
 
 let etapaAtual = 0;
 let numero = '';
-
 function começarEtapa() {
     let etapa = etapas[etapaAtual];
 
     let numeroHtml = '';
 
-    for(let i=0;i<etapa.numeros;i++){
-        if(i ===0) {
-            numero += '<div class="numero pisca"></div>';
+    for(let i=0;i<etapa.numeros;i++) {
+        if(i === 0) {
+            numeroHtml += '<div class="numero pisca"></div>';
         }else {
-        numeroHtml += '<div class="numero "></div>';
+            numeroHtml += '<div class="numero"></div>';
         }
     }
 
@@ -33,9 +32,10 @@ function atualizaInterface() {
 
 }
 
+
 function clicou(n) {
     let elNumero = document.querySelector('.numero.pisca');
-    if(elNumero !==null){
+    if(elNumero !== null) {
         elNumero.innerHTML = n;
         numero = `${numero}${n}`;
     }
@@ -51,4 +51,3 @@ function confirma() {
 }
 
 começarEtapa();
-
