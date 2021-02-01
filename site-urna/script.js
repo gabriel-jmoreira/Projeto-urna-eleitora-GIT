@@ -29,7 +29,21 @@ function começarEtapa() {
     numeros.innerHTML = numeroHtml;
 }
 function atualizaInterface() {
+    let etapa = etapas[etapaAtual];
 
+    let candidato = etapa.candidatos.filter((intem)=>{
+        if(intem.numero === numero) {
+            return true;
+        } else {
+            return false;
+        }
+    });    
+    if(candidato.length > 0){
+        candidato = candidato[0];
+        seuVotoPara.style.display = 'block';
+        aviso.style.display = 'block';
+        descricao.innerHTML = `Nome ${candidato.nome} <br/>Partido: ${candidato.partido}`;
+    }
 }
 
 
@@ -38,6 +52,13 @@ function clicou(n) {
     if(elNumero !== null) {
         elNumero.innerHTML = n;
         numero = `${numero}${n}`;
+
+        elNumero.classList.remove('pisca');
+        if(elNumero.nextElementSibling !== null) {
+            elNumero.nextElementSibling.classList.add('pisca');
+        } else {
+            atualizaInterface();
+        }
     }
 }
 function branco() {
