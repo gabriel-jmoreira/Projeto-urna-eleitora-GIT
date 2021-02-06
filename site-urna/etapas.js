@@ -8,7 +8,7 @@ let etapas = [
                 nome: "Fulano de Tal",
                     partido: "ABC",
                 foto:[
-                {url:'38111.jpg', legenda: 'Vereador'}
+                    {url:'38111.jpg', legenda: 'Vereador'}
                 ]
             },
             {
@@ -16,7 +16,7 @@ let etapas = [
                 nome: "Beltrano da Silva ",
                 partido: "DEFG",
                 foto:[
-                {url:'77222.jpg', legenda: 'Vereador'}
+                    {url:'77222.jpg', legenda: 'Vereador'}
                 ]
             },  
         ]

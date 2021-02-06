@@ -6,6 +6,7 @@ let lateral = document.querySelector('.d-1-right');
 let numeros = document.querySelector('.d-1-3');
 
 let etapaAtual = 0;
+
 let numero = '';
 function começarEtapa() {
     let etapa = etapas[etapaAtual];
@@ -15,7 +16,7 @@ function começarEtapa() {
     for(let i=0;i<etapa.numeros;i++) {
         if(i === 0) {
             numeroHtml += '<div class="numero pisca"></div>';
-        }else {
+        } else {
             numeroHtml += '<div class="numero"></div>';
         }
     }
