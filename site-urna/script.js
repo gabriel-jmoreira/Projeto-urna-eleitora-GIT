@@ -45,9 +45,9 @@ function atualizaInterface() {
         aviso.style.display = 'block';
         descricao.innerHTML = `Nome ${candidato.nome} <br/>Partido: ${candidato.partido}`;
         
-        let fotoHtml = '';
+        let fotosHtml = '';
         for(let i in candidato.fotos){
-            fotosHtml += `<div class="d-1-image"><img src="image/${candidato.fotos[i].url}"alt="">${candidato.fotos[i].legenda}</div>`;    
+            fotosHtml += `<div class="d-1-image"><img src="image/${candidato.fotos[i].url}"alt="">${candidato.fotos[i].legenda}</div>`;
         }
         lateral.innerHTML = fotosHtml;
     }   else {
