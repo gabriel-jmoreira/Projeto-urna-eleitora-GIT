@@ -73,10 +73,12 @@ function clicou(n) {
     }
 }
 function branco() {
-    alert("Clicou em Branco!");
+    if(numero===''){
+
+    }
 }
 function corrige() {
-    alert("Clicou em Corrige!");
+    começarEtapa();    
 }
 function confirma() {
     alert("Clicou em Confirma!");
